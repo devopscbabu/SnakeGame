@@ -22,7 +22,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>SnakeGameMain</mainClass>
+                            <mainClass>SnakeGame</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
