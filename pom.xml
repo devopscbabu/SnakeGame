@@ -21,6 +21,14 @@
         </dependency>
         <!-- Add other dependencies here -->
     </dependencies>
+    <repositories>
+    <repository>
+        <id>custom-repo</id>
+        <name>Custom Repository</name>
+        <url>https://example.com/maven-repo/</url>
+    </repository>
+</repositories>
+
 
     <build>
         <plugins>
