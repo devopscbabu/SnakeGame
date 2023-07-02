@@ -1,7 +1,5 @@
 package Snake;
 
-
-
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -17,29 +15,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
-import javax.swing.JFrame;
-
-import javax.swing.JFrame;
-
-
 public class SnakeGame extends JPanel implements ActionListener {
-	
-	   public static void main(String[] args) {
-	        JFrame frame = new JFrame("Snake");
-	        frame.add(new SnakeGame());
-	        frame.setResizable(false);
-	        frame.pack();
-	        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	        frame.setLocationRelativeTo(null);
-	        frame.setVisible(true);
-	    }
-
-
-	
-	
-	
-	
-	
     private final int B_WIDTH = 300;
     private final int B_HEIGHT = 300;
     private final int DOT_SIZE = 10;
