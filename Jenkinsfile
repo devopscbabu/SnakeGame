@@ -9,6 +9,10 @@ stages {
          git branch: 'master', url: 'https://github.com/devopscbabu/SnakeGame.git'
             }
     }
-  
+  stage('Build using maven') {
+      steps {
+         sh 'mvn clean package'
+            }
+    }
   }
 }
