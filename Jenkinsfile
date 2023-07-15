@@ -13,6 +13,7 @@ stages {
       steps {
          sh 'mvn clean package'
              }
+  }
    stage('Echo my job') {
       steps {
          echo 'Welcome to my world'
