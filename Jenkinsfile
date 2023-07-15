@@ -12,7 +12,7 @@ stages {
   stage('Build using maven') {
       steps {
          sh 'mvn clean package'
-            }
+             }
     }
   }
 }
